@@ -1,7 +1,7 @@
 /**
  * Created by powel on 10/15/2017.
  */
-abstract class Node constructor(data: Int){
+class Node constructor(data: Int){
     var data = data
     abstract var left: Node
     abstract var right: Node

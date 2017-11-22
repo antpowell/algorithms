@@ -7,8 +7,37 @@ class HeapSort() {
     /*Both left and right subtrees must be
     * sorted*/
 //    var parent = (index - 2) / 2
-//    var leftChild = (index * 2) + 1
+//    var leftChild = (index * 2) + 1e
 //    var rightChild = (index * 2) + 2
+
+    data class Tree(var parent: Int, var leftChild: Int, var rightChild: Int) {
+
+        fun siftDown() {
+            while (parent < leftChild || parent < rightChild)
+                if (leftChild > parent && rightChild > parent) {
+                    if (leftChild > rightChild) {
+                        var temp = parent
+                        parent = leftChild
+                        leftChild = temp
+                    } else {
+                        var temp = parent
+                        parent = rightChild
+                        rightChild = temp
+                    }
+                } else if (leftChild > parent) {
+                    var temp = parent
+                    parent = leftChild
+                    leftChild = temp
+                } else if (rightChild > parent) {
+                    var temp = parent
+                    parent = rightChild
+                    rightChild = temp
+                }
+        }
+
+
+    }
+
     private fun parent(i: Int): Int {
 
         return if ((Math.ceil((i.toDouble() / 2.0)) - 1) < 0) {
@@ -19,9 +48,50 @@ class HeapSort() {
 
     }
 
+    private fun swapLeft(parentIndex: Int, leftIndex: Int) {
+
+    }
+
+    private fun siftDown(a: IntArray, parentIndex: Int) {
+
+        var parentIndex = parentIndex
+        var returnArray = a
+        val leftChild = (parentIndex * 2) + 1
+        val rightChild = (parentIndex * 2) + 2
+
+        if (leftChild < a.lastIndex && rightChild < a.lastIndex) {
+            if (a[parentIndex] < a[leftChild] || a[parentIndex] < a[rightChild]) {
+                if (a[parentIndex] < a[leftChild]) {
+                    var temp = a[parentIndex]
+                    a[parentIndex] = a[leftChild]
+                    a[leftChild] = temp
+                    parentIndex = leftChild
+                    siftDown(returnArray, parentIndex)
+                } else {
+                    var temp = a[parentIndex]
+                    a[parentIndex] = a[rightChild]
+                    a[rightChild] = temp
+                    parentIndex = rightChild
+                    siftDown(returnArray, parentIndex)
+                }
+            }
+        } else if (leftChild < a.lastIndex) {
+            if (a[parentIndex] < a[leftChild]) {
+                var temp = a[parentIndex]
+                a[parentIndex] = a[leftChild]
+                a[leftChild] = temp
+                parentIndex = leftChild
+                siftDown(returnArray, parentIndex)
+            }
+
+        } else if (rightChild < a.lastIndex) {
+
+        }
+    }
+
     private fun siftParentFromChild(a: IntArray, parentIndex: Int, leftIndex: Int, rightIndex: Int): IntArray {
         var returnArray = a
-            if (returnArray[leftIndex] > returnArray[parentIndex] && returnArray[rightIndex] > returnArray[parentIndex]) {
+        if (returnArray[leftIndex] > returnArray[parentIndex] && returnArray[rightIndex] > returnArray[parentIndex]) {
             if (returnArray[leftIndex] > returnArray[rightIndex]) {
                 var temp = returnArray[parentIndex]
                 returnArray[parentIndex] = returnArray[leftIndex]
@@ -54,13 +124,13 @@ class HeapSort() {
                     returnArray[parentIndex] = returnArray[rightChildIndex]
                 }
             }
-        }else if (leftChildIndex < returnArray.lastIndex){
-                if (returnArray[leftChildIndex] > returnArray[parentIndex]) {
-                    var temp = returnArray[parentIndex]
-                    returnArray[parentIndex] = returnArray[leftChildIndex]
-                    returnArray[leftChildIndex] = temp
-                }
-        }else if (rightChildIndex < returnArray.lastIndex){
+        } else if (leftChildIndex < returnArray.lastIndex) {
+            if (returnArray[leftChildIndex] > returnArray[parentIndex]) {
+                var temp = returnArray[parentIndex]
+                returnArray[parentIndex] = returnArray[leftChildIndex]
+                returnArray[leftChildIndex] = temp
+            }
+        } else if (rightChildIndex < returnArray.lastIndex) {
             if (returnArray[rightChildIndex] >= returnArray[parentIndex]) {
                 var temp = returnArray[parentIndex]
                 returnArray[parentIndex] = returnArray[rightChildIndex]
@@ -120,6 +190,7 @@ fun main(args: Array<String>) {
     println(Math.floor(Math.log(25.00) / Math.log(2.0)))
     var list = IntArray(25)
     list = IntRange(1, 25).toList().toIntArray()
-    var heap = HeapSort().sort(list)
+//    var heap = HeapSort().sort(list)
+    var maxHeap = BuildMaxHeap().buildHea (list)
 
 }
