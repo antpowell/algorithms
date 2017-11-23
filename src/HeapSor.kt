@@ -191,6 +191,6 @@ fun main(args: Array<String>) {
     var list = IntArray(25)
     list = IntRange(1, 25).toList().toIntArray()
 //    var heap = HeapSort().sort(list)
-    var maxHeap = BuildMaxHeap().buildHea (list)
+//    var maxHeap = BuildMaxHeap().buildHea (list)
 
 }
