@@ -4,8 +4,6 @@
     <list default="true" id="1078c1e9-cae8-4650-8f99-0f71ac87bb41" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BuildMaxHeap.kt" afterPath="$PROJECT_DIR$/src/BuildMaxHeap.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HeapSor.kt" afterPath="$PROJECT_DIR$/src/HeapSor.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/trees.kt" afterPath="$PROJECT_DIR$/src/trees.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,17 +38,15 @@
         <entry file="file://$PROJECT_DIR$/src/BuildMaxHeap.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="358">
-              <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+              <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc;n#BuildMaxHeap#0" expanded="false" />
-                <element signature="e#188#254#0" expanded="false" />
                 <element signature="n#!!block;n#parent#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
                 <element signature="n#!!block;n#left#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
                 <element signature="n#!!block;n#right#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
                 <element signature="n#!!block;n#heapSort#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
                 <element signature="n#!!block;n#buildHeap#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
                 <element signature="n#!!block;n#heapify#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
-                <element signature="n#!!block;n#main#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -59,7 +55,7 @@
       <file leaf-file-name="HeapSor.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HeapSor.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
+            <state relative-caret-position="3880">
               <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
               <folding>
                 <marker date="1511409577152" expanded="true" signature="1547:6917" ph="{...}" />
@@ -71,11 +67,10 @@
       <file leaf-file-name="trees.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/trees.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="500">
               <caret line="27" column="3" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="27" selection-end-column="3" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
-                <marker date="1511409592810" expanded="true" signature="78:633" ph="{...}" />
                 <marker date="1511409592810" expanded="true" signature="194:623" ph="{...}" />
                 <marker date="1511409592810" expanded="true" signature="223:382" ph="{...}" />
                 <marker date="1511409592810" expanded="true" signature="256:311" ph="{...}" />
@@ -127,8 +122,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1928" />
-    <option name="y" value="-11" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -681,12 +676,13 @@
       <workItem from="1511299836863" duration="2955000" />
       <workItem from="1511316072198" duration="751000" />
       <workItem from="1511316868544" duration="330000" />
-      <workItem from="1511317222296" duration="13705000" />
+      <workItem from="1511317222296" duration="13850000" />
+      <workItem from="1511577203915" duration="973000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31242000" />
+    <option name="totallyTimeSpent" value="32360000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -698,7 +694,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-11" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -785,31 +781,38 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HeapSor.kt">
+    <entry file="file://$PROJECT_DIR$/src/BuildMaxHeap.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#BuildMaxHeap#0" expanded="false" />
+            <element signature="n#!!block;n#parent#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
+            <element signature="n#!!block;n#left#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
+            <element signature="n#!!block;n#right#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
+            <element signature="n#!!block;n#heapSort#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
+            <element signature="n#!!block;n#buildHeap#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
+            <element signature="n#!!block;n#heapify#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HeapSor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3880">
+          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
           <folding>
             <marker date="1511409577152" expanded="true" signature="1547:6917" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/trees.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="500">
+          <caret line="27" column="3" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="27" selection-end-column="3" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <marker date="1511409592810" expanded="true" signature="78:633" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="194:623" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="223:382" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="256:311" ph="{...}" />
@@ -832,21 +835,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees.java" />
     <entry file="file://$PROJECT_DIR$/src/trees.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <marker date="1511409592810" expanded="true" signature="78:633" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="194:623" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="223:382" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="256:311" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="315:370" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="386:615" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="419:603" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="455:521" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="525:587" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HeapSor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1511409577152" expanded="true" signature="1547:6917" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees.java" />
+    <entry file="file://$PROJECT_DIR$/src/trees.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
             <marker date="1511409592810" expanded="true" signature="194:623" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="223:382" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="256:311" ph="{...}" />
@@ -875,7 +899,6 @@
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <marker date="1511409592810" expanded="true" signature="78:633" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="194:623" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="223:382" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="256:311" ph="{...}" />
@@ -888,14 +911,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees.java" />
     <entry file="file://$PROJECT_DIR$/src/HeapSor.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3780">
@@ -912,7 +928,6 @@
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <marker date="1511409592810" expanded="true" signature="78:633" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="194:623" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="223:382" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="256:311" ph="{...}" />
@@ -925,14 +940,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1460">
-          <caret line="73" column="19" lean-forward="false" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees.java" />
     <entry file="file://$PROJECT_DIR$/src/HeapSor.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2400">
@@ -949,7 +957,6 @@
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <marker date="1511409592810" expanded="true" signature="78:633" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="194:623" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="223:382" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="256:311" ph="{...}" />
@@ -962,14 +969,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1460">
-          <caret line="73" column="19" lean-forward="false" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees.java" />
     <entry file="file://$PROJECT_DIR$/src/HeapSor.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1010,21 +1010,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees.java" />
     <entry file="file://$PROJECT_DIR$/src/trees.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <marker date="1511409592810" expanded="true" signature="78:633" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="194:623" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="223:382" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="256:311" ph="{...}" />
@@ -1054,17 +1046,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees.java" />
     <entry file="file://$PROJECT_DIR$/src/HeapSor.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
+        <state relative-caret-position="3880">
           <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
           <folding>
             <marker date="1511409577152" expanded="true" signature="1547:6917" ph="{...}" />
@@ -1074,11 +1059,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/trees.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="500">
           <caret line="27" column="3" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="27" selection-end-column="3" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <marker date="1511409592810" expanded="true" signature="78:633" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="194:623" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="223:382" ph="{...}" />
             <marker date="1511409592810" expanded="true" signature="256:311" ph="{...}" />
@@ -1094,17 +1078,15 @@
     <entry file="file://$PROJECT_DIR$/src/BuildMaxHeap.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
-          <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc;n#BuildMaxHeap#0" expanded="false" />
-            <element signature="e#188#254#0" expanded="false" />
             <element signature="n#!!block;n#parent#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
             <element signature="n#!!block;n#left#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
             <element signature="n#!!block;n#right#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
             <element signature="n#!!block;n#heapSort#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
             <element signature="n#!!block;n#buildHeap#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
             <element signature="n#!!block;n#heapify#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
-            <element signature="n#!!block;n#main#0" expanded="false" />
           </folding>
         </state>
       </provider>

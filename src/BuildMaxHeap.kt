@@ -32,7 +32,7 @@ class BuildMaxHeap(var unsortedArray: IntArray) {
             return index
     }
 
-    fun heapSort(a: IntArray): IntArray {
+    private fun heapSort(a: IntArray): IntArray {
         buildHeap(unsortedArray)
         var i = unsortedArray.size - 1
         while (i >= 1) {
@@ -72,13 +72,15 @@ class BuildMaxHeap(var unsortedArray: IntArray) {
             unsortedArray[largest] = temp
             heapify(unsortedArray, largest)
         }
+        println(unsortedArray.toList().toString())
     }
 
 }
 
 fun main(args: Array<String>) {
     var list = IntArray(25)
-    list = IntRange(1, 25).toList().toIntArray()
+    list = IntRange(1, 25).reversed().toList().toIntArray()
+    println("Array to sort: ${list.toList().toString()}")
 
-    var buildHeap = BuildMaxHeap(list)
+    var buildHeap = BuildMaxHeap(list.reversed().toIntArray())
 }
