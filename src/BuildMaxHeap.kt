@@ -2,13 +2,19 @@
  * Created by powel on 11/21/2017.
  */
 
-class BuildMaxHeap(var unsortedArray: IntArray) {
+
+/**
+* This class should take an array as its only argument.
+* That array will be passed by value, so the results will
+* be stored inside the variable passed into this class.
+**/
+class BuildMaxHeap(private var unsortedArray: IntArray) {
 
     private var largest = 0
     private var heapSize: Int = unsortedArray.size - 1
 
     init {
-        print(heapSort(unsortedArray).toList().toString())
+        heapSort()
     }
 
     private fun parent(index: Int): Int {
@@ -32,8 +38,8 @@ class BuildMaxHeap(var unsortedArray: IntArray) {
             return index
     }
 
-    private fun heapSort(a: IntArray): IntArray {
-        buildHeap(unsortedArray)
+    private fun heapSort(): IntArray {
+        buildHeap()
         var i = unsortedArray.size - 1
         while (i >= 1) {
 
@@ -41,24 +47,24 @@ class BuildMaxHeap(var unsortedArray: IntArray) {
             unsortedArray[0] = unsortedArray[i]
             unsortedArray[i] = temp
             heapSize--
-            heapify(unsortedArray, 0)
+            heapify(0)
             i--
         }
         return unsortedArray
     }
 
-    private fun buildHeap(a: IntArray) {
+    private fun buildHeap() {
 
         var i = Math.floor(unsortedArray.size / 2.0).toInt()
 
         while (i >= 0) {
-            heapify(unsortedArray, i)
+            heapify(i)
             i--
         }
 
     }
 
-    private fun heapify(a: IntArray, index: Int) {
+    private fun heapify(index: Int) {
         var l = left(index)
         var r = right(index)
 
@@ -67,10 +73,12 @@ class BuildMaxHeap(var unsortedArray: IntArray) {
         else largest = index
         if (r <= heapSize && unsortedArray[r] > unsortedArray[largest]) largest = r
         if (largest != index) {
+
+
             var temp = unsortedArray[index]
             unsortedArray[index] = unsortedArray[largest]
             unsortedArray[largest] = temp
-            heapify(unsortedArray, largest)
+            heapify(largest)
         }
         println(unsortedArray.toList().toString())
     }
@@ -78,9 +86,18 @@ class BuildMaxHeap(var unsortedArray: IntArray) {
 }
 
 fun main(args: Array<String>) {
-    var list = IntArray(25)
-    list = IntRange(1, 25).reversed().toList().toIntArray()
-    println("Array to sort: ${list.toList().toString()}")
 
-    var buildHeap = BuildMaxHeap(list.reversed().toIntArray())
+    /*Array of 25 element starting at 25 down to 1*/
+    var list = IntArray(25) /*Use this section to change array size if needed*/
+    list = IntRange(1, 25).reversed().toList().toIntArray() /*Use this section to change the range of the array defined above*/
+    /*End of array with 25 elements*/
+
+    /*Array with random numbers*/
+    var largerList = intArrayOf(934, 592, 575, 760, 627, 991, 635, 854, 117, 260, 508, 47, 409, 559, 40, 945,
+            446, 995, 31, 837, 68, 93, 939, 386, 453, 594, 778, 444, 333, 584, 612, 318, 458, 97, 488) /*Enter n random numbers into this array*/
+    /*End of array with random numbers*/
+
+
+    BuildMaxHeap(largerList)
+    println("Should now be sorted: ${largerList.toList()}")
 }
