@@ -1,5 +1,5 @@
 /**
- * Created by powel on 11/21/2017.
+ * Created by Davidson, FranChell, Powell, Anthony, Roby, Jamaal on 11/21/2017.
  */
 
 
@@ -15,13 +15,6 @@ class BuildMaxHeap(private var unsortedArray: IntArray) {
 
     init {
         heapSort()
-    }
-
-    private fun parent(index: Int): Int {
-        return if ((Math.ceil(index / 2.0) - 1) < 0)
-            0
-        else
-            (Math.ceil(index / 2.0) - 1).toInt()
     }
 
     private fun left(index: Int): Int {
@@ -64,19 +57,19 @@ class BuildMaxHeap(private var unsortedArray: IntArray) {
 
     }
 
-    private fun heapify(index: Int) {
-        var l = left(index)
-        var r = right(index)
+    private fun heapify(parentIndex: Int) {
+        var l = left(parentIndex)
+        var r = right(parentIndex)
 
-        if (l <= heapSize && unsortedArray[l] > unsortedArray[index])
-            largest = l
-        else largest = index
+        largest = if (l <= heapSize && unsortedArray[l] > unsortedArray[parentIndex])
+            l
+        else parentIndex
+
         if (r <= heapSize && unsortedArray[r] > unsortedArray[largest]) largest = r
-        if (largest != index) {
 
-
-            var temp = unsortedArray[index]
-            unsortedArray[index] = unsortedArray[largest]
+        if (largest != parentIndex) {
+            var temp = unsortedArray[parentIndex]
+            unsortedArray[parentIndex] = unsortedArray[largest]
             unsortedArray[largest] = temp
             heapify(largest)
         }
@@ -84,6 +77,7 @@ class BuildMaxHeap(private var unsortedArray: IntArray) {
     }
 
 }
+
 
 fun main(args: Array<String>) {
 
