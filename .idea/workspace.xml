@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1078c1e9-cae8-4650-8f99-0f71ac87bb41" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TemperatureStats.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/BuildMaxHeapKt.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/BuildMaxHeapKt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BuildMaxHeap.kt" afterPath="$PROJECT_DIR$/src/BuildMaxHeap.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,18 +36,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BuildMaxHeap.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Algorithms.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildMaxHeap.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BuildMaxHeap.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-126">
-              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="378">
+              <caret line="81" column="29" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding>
                 <element signature="e#0#87#0" expanded="true" />
-                <element signature="e#420#446#0" expanded="false" />
-                <element signature="n#!!block;n#left#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
-                <element signature="n#!!block;n#right#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
-                <element signature="n#!!block;n#heapSort#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
-                <element signature="n#!!block;n#buildHeap#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
                 <element signature="n#!!block;n#heapify#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
               </folding>
             </state>
@@ -54,11 +62,21 @@
       <file leaf-file-name="HeapSor.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HeapSor.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
+            <state relative-caret-position="3880">
               <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
               <folding>
                 <marker date="1511409577152" expanded="true" signature="1547:6917" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemperatureStats.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TemperatureStats.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="52" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,6 +108,7 @@
       <list>
         <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -111,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/HeapSor.kt" />
         <option value="$PROJECT_DIR$/src/trees.kt" />
         <option value="$PROJECT_DIR$/src/BuildMaxHeap.kt" />
+        <option value="$PROJECT_DIR$/src/TemperatureStats.kt" />
       </list>
     </option>
   </component>
@@ -123,12 +143,12 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1932" />
     <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -141,7 +161,39 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alg_practice_and_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alg_practice_and_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -167,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.BuildMaxHeapKt">
+  <component name="RunManager" selected="Kotlin.TemperatureStatsKt">
     <configuration default="false" name="HeapSorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="HeapSorKt" />
@@ -184,6 +236,19 @@
     <configuration default="false" name="BuildMaxHeapKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="BuildMaxHeapKt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Algorithms" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TemperatureStatsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TemperatureStatsKt" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -597,13 +662,15 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Kotlin.HeapSorKt" />
       <item index="1" class="java.lang.String" itemvalue="Kotlin.BuildMaxHeapKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.TemperatureStatsKt" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.BuildMaxHeapKt" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Kotlin.TemperatureStatsKt" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.BuildMaxHeapKt" />
       </list>
     </recent_temporary>
   </component>
@@ -632,12 +699,18 @@
       <workItem from="1511316868544" duration="330000" />
       <workItem from="1511317222296" duration="13850000" />
       <workItem from="1511577203915" duration="2191000" />
-      <workItem from="1511649089568" duration="6763000" />
+      <workItem from="1511649089568" duration="7984000" />
+      <workItem from="1512224433604" duration="452000" />
+      <workItem from="1512427524506" duration="2334000" />
+      <workItem from="1512698331540" duration="879000" />
+      <workItem from="1512699501353" duration="1235000" />
+      <workItem from="1515102260655" duration="866000" />
+      <workItem from="1515103144191" duration="8957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40341000" />
+    <option name="totallyTimeSpent" value="56285000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -649,8 +722,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1932" height="1066" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -661,20 +733,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2926009" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27578476" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2489339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25160256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39125562" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -727,26 +799,47 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/TemperatureStats.kt</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/TemperatureStats.kt</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="14" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="JetRunConfigurationType">
+        <watch expression="frequencies" language="kotlin" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/TemperatureStats.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" column="11" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BuildMaxHeap.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#87#0" expanded="true" />
-            <element signature="e#420#446#0" expanded="false" />
-            <element signature="n#!!block;n#left#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
-            <element signature="n#!!block;n#right#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
-            <element signature="n#!!block;n#heapSort#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
-            <element signature="n#!!block;n#buildHeap#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
             <element signature="n#!!block;n#heapify#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
           </folding>
         </state>
@@ -786,11 +879,201 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#87#0" expanded="true" />
-            <element signature="e#420#446#0" expanded="false" />
-            <element signature="n#!!block;n#left#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
-            <element signature="n#!!block;n#right#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
-            <element signature="n#!!block;n#heapSort#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
-            <element signature="n#!!block;n#buildHeap#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
+            <element signature="n#!!block;n#heapify#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HeapSor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3880">
+          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+          <folding>
+            <marker date="1511409577152" expanded="true" signature="1547:6917" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="27" column="3" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1511409592810" expanded="true" signature="194:623" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="223:382" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="256:311" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="315:370" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="386:615" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="419:603" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="455:521" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="525:587" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BuildMaxHeap.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#87#0" expanded="true" />
+            <element signature="n#!!block;n#heapify#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HeapSor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3880">
+          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+          <folding>
+            <marker date="1511409577152" expanded="true" signature="1547:6917" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="27" column="3" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1511409592810" expanded="true" signature="194:623" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="223:382" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="256:311" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="315:370" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="386:615" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="419:603" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="455:521" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="525:587" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BuildMaxHeap.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#87#0" expanded="true" />
+            <element signature="n#!!block;n#heapify#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HeapSor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3880">
+          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+          <folding>
+            <marker date="1511409577152" expanded="true" signature="1547:6917" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="27" column="3" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1511409592810" expanded="true" signature="194:623" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="223:382" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="256:311" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="315:370" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="386:615" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="419:603" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="455:521" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="525:587" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BuildMaxHeap.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#87#0" expanded="true" />
+            <element signature="n#!!block;n#heapify#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HeapSor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3880">
+          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+          <folding>
+            <marker date="1511409577152" expanded="true" signature="1547:6917" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="27" column="3" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1511409592810" expanded="true" signature="194:623" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="223:382" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="256:311" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="315:370" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="386:615" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="419:603" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="455:521" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="525:587" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BuildMaxHeap.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#87#0" expanded="true" />
+            <element signature="n#!!block;n#heapify#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HeapSor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3880">
+          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+          <folding>
+            <marker date="1511409577152" expanded="true" signature="1547:6917" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="27" column="3" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <marker date="1511409592810" expanded="true" signature="194:623" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="223:382" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="256:311" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="315:370" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="386:615" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="419:603" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="455:521" ph="{...}" />
+            <marker date="1511409592810" expanded="true" signature="525:587" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BuildMaxHeap.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#87#0" expanded="true" />
             <element signature="n#!!block;n#heapify#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
           </folding>
         </state>
@@ -1066,7 +1349,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HeapSor.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
+        <state relative-caret-position="3880">
           <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
           <folding>
             <marker date="1511409577152" expanded="true" signature="1547:6917" ph="{...}" />
@@ -1074,19 +1357,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BuildMaxHeap.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="378">
+          <caret line="81" column="29" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding>
             <element signature="e#0#87#0" expanded="true" />
-            <element signature="e#420#446#0" expanded="false" />
-            <element signature="n#!!block;n#left#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
-            <element signature="n#!!block;n#right#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
-            <element signature="n#!!block;n#heapSort#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
-            <element signature="n#!!block;n#buildHeap#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
             <element signature="n#!!block;n#heapify#0;n#!!block;n#BuildMaxHeap#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemperatureStats.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="52" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

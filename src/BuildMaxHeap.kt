@@ -87,7 +87,7 @@ fun main(args: Array<String>) {
     /*End of array with 25 elements*/
 
     /*Array with random numbers*/
-    var largerList = intArrayOf(934, 592, 575, 760, 627, 991, 635, 854, 117, 260, 508, 47, 409, 559, 40, 945,
+    var largerList = intArrayOf(34, 592, 575, 760, 627, 991, 635, 854, 117, 260, 508, 47, 409, 559, 40, 945,
             446, 995, 31, 837, 68, 93, 939, 386, 453, 594, 778, 444, 333, 584, 612, 318, 458, 97, 488) /*Enter n random numbers into this array*/
     /*End of array with random numbers*/
 
